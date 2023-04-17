@@ -19,7 +19,7 @@ Edit your *Expo* app's __`app.json`__ (or its dynamic .js/.ts config) to contain
   "expo": {
     "plugins": [
       [
-        "../app.plugin.js", 
+        "expo-android-app-gradle-dependencies", 
         {
           "spacing": "    ",
           "dependencies": [
