@@ -5,7 +5,7 @@
   "main": "plugin/build/index.js",
   "types": "plugin/build/index.d.ts",
   "scripts": {
-    "build": "expo-module build",
+    "build": "expo-module build plugin",
     "clean": "expo-module clean",
     "lint": "expo-module lint",
     "test": "expo-module test",
