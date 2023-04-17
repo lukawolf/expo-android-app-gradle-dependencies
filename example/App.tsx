@@ -1,11 +1,9 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-import * as ExpoAndroidAppGradleDependencies from 'expo-android-app-gradle-dependencies';
-
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>{ExpoAndroidAppGradleDependencies.hello()}</Text>
+      <Text>ASDF</Text>
     </View>
   );
 }

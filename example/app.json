@@ -27,6 +27,19 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "../app.plugin.js", 
+        {
+          "spacing": "    ",
+          "dependencies": [
+            "com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.11",
+            "com.squareup.okhttp3:okhttp:5.0.0-alpha.11",
+            "com.squareup.okhttp3:okhttp-urlconnection:5.0.0-alpha.11"
+          ]
+        }
+      ]
+    ]
   }
 }

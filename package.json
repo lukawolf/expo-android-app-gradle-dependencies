@@ -2,8 +2,8 @@
   "name": "expo-android-app-gradle-dependencies",
   "version": "0.1.0",
   "description": "This expo module is used to inject custom dependencies into the android/app/build.gradle file",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
+  "main": "plugin/build/index.js",
+  "types": "plugin/build/index.d.ts",
   "scripts": {
     "build": "expo-module build",
     "clean": "expo-module clean",

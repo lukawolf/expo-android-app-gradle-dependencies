@@ -231,6 +231,11 @@ dependencies {
     } else {
         implementation jscFlavor
     }
+    // START expo-android-app-gradle-dependencies
+    implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.11'
+    implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.11'
+    implementation 'com.squareup.okhttp3:okhttp-urlconnection:5.0.0-alpha.11'
+    // END expo-android-app-gradle-dependencies
 }
 
 apply from: new File(["node", "--print", "require.resolve('@react-native-community/cli-platform-android/package.json')"].execute(null, rootDir).text.trim(), "../native_modules.gradle");
