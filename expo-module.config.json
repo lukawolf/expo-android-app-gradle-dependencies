@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "android", "web"],
+  "ios": {
+    "modules": ["ExpoAndroidAppGradleDependenciesModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.androidappgradledependencies.ExpoAndroidAppGradleDependenciesModule"]
+  }
+}

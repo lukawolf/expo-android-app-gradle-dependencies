@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-android-app-gradle-dependencies": ["../src/index"],
+      "expo-android-app-gradle-dependencies/*": ["../src/*"]
+    }
+  }
+}
